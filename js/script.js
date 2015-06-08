@@ -9,5 +9,6 @@ $(document).ready(function(){
             }
         });
         columns.height(tallestcolumn);
-    };
+    }
+    $('.base-slider').slick();
 });
