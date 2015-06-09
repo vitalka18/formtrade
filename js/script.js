@@ -10,5 +10,13 @@ $(document).ready(function(){
         });
         columns.height(tallestcolumn);
     }
-    $('.base-slider').slick();
+    $('.base-slider').slick({
+        arrows: false,
+        dots: true
+    });
+    $('.inner-nav').prev('a').click(function(e){
+        e.preventDefault();
+         $('.inner-nav').stop(false, true);
+        $(this).toggleClass('open').next().slideToggle();
+    });
 });
