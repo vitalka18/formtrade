@@ -1189,7 +1189,6 @@ html, body {
   .bs-item {
     height: 275px;
     width: 100%;
-    position: relative;
   }
   .bs-item img {
     min-width: 100%;
@@ -1204,25 +1203,13 @@ html, body {
     right: 0;
   }
   .bs-item .item-text {
-    z-index: 3;
     padding: 15px;
-    position: absolute;
     height: 165px;
     left: 0;
     top: auto;
     bottom: 0;
-    background: #475577;
-    background: rgba(71, 85, 119, 0.9);
-    color: #fff;
-    font-size: 30px;
-    font-family: 'latobold',sans-serif;
-    font-weight: 700;
-    max-width: 314px;
-  }
-  .bs-item .item-text small {
-    font-size: 24.7px;
-    text-align: left;
-    display: block;
+    right: 0;
+    max-width: 100%;
   }
 
   .slick-dots {

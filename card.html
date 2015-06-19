@@ -1,407 +1,347 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>FormTrade</title>
-    <!--[if lt IE 9]>
-    <html class="ie">
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-      <html class="ie"> 
-    <![endif]-->
-    <link href="css/normalize.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="vendor/slick/slick.css">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="page">
-      <div class="wrapper">
-        <header class="header">
-          <div class="top-header pos-r">
-            <div class="container">
-              <div class="nav-open">
-                <a class="toggle-menu" href="#">
-                  <span class=" icon-menu"></span>
-                  <span class="menu-text mobile-hide">Меню</span>
-                </a>
-              </div>
-              <nav id="main-menu" class="nav-wrap">
-                <ul class="separator-menu clearfix">
-                  <li><a href="#">о компании</a></li>             
-                  <li><a href="#">каталог</a></li>              
-                  <li><a href="#">сервисный центр</a></li>              
-                  <li><a href="#">оплата и доставка</a></li>              
-                  <li><a href="#">новости </a></li>             
-                  <li><a href="#">контакты</a></li>
-                </ul>
-              </nav><!--/.nav-wrap-->
-              <aside class="user-action-wrap clearfix">
-                <ul class="user-action pull-right">
-                  <li><a class="icon-icon_lock-open" href="#">Вход</a></li>
-                  <li><a class="icon-icon_key mobile-hide" href="#">Регистрация</a></li>
-                  <li><a class="icon-basket" href="#">Корзина <span class="badge">3</span></a></li>
-                </ul>
-              </aside>
-            </div><!--/.container-->
-          </div><!--/.top-header-->
-          <div class="bottom-header container">
-            <div class="logo-wrap pull-left clearfix">
-               <a  class="logo pull-left" href="#">
-                 <img src="images/logo.png" class="img-responsive" alt="На главную">
-               </a>
-               <blockquote class="logo-text mobile-hide">
-                  Продажа торговых автоматов, платежных
-                  систем, холодильного оборудования и
-                  оборудования для розлива пива 
-               </blockquote>
-            </div><!--/.logo-wrap-->
-            <ul class="number-list pull-right">
-              <li><a  href="">+7(495) 361-52-04</a></li>
-              <li><a  href="">+7(495) 361-57-75</a></li>
-              <li><a  href="">+7(495) 221-84-19</a></li>
-            </ul>
-            <address class="header-address center-block tablet-hide mobile-hide">
-              <div class="address-item">
-                <span class="icon icon-home"></span>Москва, Красноказарменный пр, д. 1, оф. 702  
-              </div><!--/.address-item-->
-              <div class="address-item">
-                <span class="icon icon-mail-alt"></span>
-                <a href="mailto:info@formtrade.ru">info@formtrade.ru  </a>
-              </div><!--/.address-item-->
-            </address><!--/.logo-wrap-->
-          </div><!--/.bottom-header-->
-          <hr class="vertical-line">
-        </header><!--/.header-->
-        <aside class="preferences-block container mobile-hide">
-          <div class="pb-item">
-            <span class="circul icon-thumbs28"></span>
-            <div class="text">Мы работаем напрямую 
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>FormTrade</title>
+		<!--[if lt IE 9]>
+		<html class="ie">
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<![endif]-->
+		<!--[if lt IE 8]>
+			<html class="ie"> 
+		<![endif]-->
+		<link href="css/normalize.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/fontello.css">
+		<link rel="stylesheet" href="vendor/slick/slick.css">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="page">
+			<div class="wrapper">
+				<header class="header">
+					<div class="top-header pos-r">
+						<div class="container">
+							<div class="nav-open">
+								<a class="toggle-menu" href="#">
+									<span class=" icon-menu"></span>
+									<span class="menu-text mobile-hide">Меню</span>
+								</a>
+							</div>
+							<nav id="main-menu" class="nav-wrap">
+								<ul class="separator-menu clearfix">
+									<li><a href="#">о компании</a></li>             
+									<li><a href="#">каталог</a></li>              
+									<li><a href="#">сервисный центр</a></li>              
+									<li><a href="#">оплата и доставка</a></li>              
+									<li><a href="#">новости </a></li>             
+									<li><a href="#">контакты</a></li>
+								</ul>
+							</nav><!--/.nav-wrap-->
+							<aside class="user-action-wrap clearfix">
+								<ul class="user-action pull-right">
+									<li><a class="icon-icon_lock-open" href="#">Вход</a></li>
+									<li><a class="icon-icon_key mobile-hide" href="#">Регистрация</a></li>
+									<li><a class="icon-basket" href="#">Корзина <span class="badge">3</span></a></li>
+								</ul>
+							</aside>
+						</div><!--/.container-->
+					</div><!--/.top-header-->
+					<div class="bottom-header container">
+						<div class="logo-wrap pull-left clearfix">
+							 <a  class="logo pull-left" href="#">
+								 <img src="images/logo.png" class="img-responsive" alt="На главную">
+							 </a>
+							 <blockquote class="logo-text mobile-hide">
+									Продажа торговых автоматов, платежных
+									систем, холодильного оборудования и
+									оборудования для розлива пива 
+							 </blockquote>
+						</div><!--/.logo-wrap-->
+						<ul class="number-list pull-right">
+							<li><a  href="">+7(495) 361-52-04</a></li>
+							<li><a  href="">+7(495) 361-57-75</a></li>
+							<li><a  href="">+7(495) 221-84-19</a></li>
+						</ul>
+						<address class="header-address center-block tablet-hide mobile-hide">
+							<div class="address-item">
+								<span class="icon icon-home"></span>Москва, Красноказарменный пр, д. 1, оф. 702  
+							</div><!--/.address-item-->
+							<div class="address-item">
+								<span class="icon icon-mail-alt"></span>
+								<a href="mailto:info@formtrade.ru">info@formtrade.ru  </a>
+							</div><!--/.address-item-->
+						</address><!--/.logo-wrap-->
+					</div><!--/.bottom-header-->
+					<hr class="vertical-line">
+				</header><!--/.header-->
+				<aside class="preferences-block container mobile-hide">
+					<div class="pb-item">
+						<span class="circul icon-thumbs28"></span>
+						<div class="text">Мы работаем напрямую 
 со всеми производителями </div>
-          </div>
-          <div class="pb-item">
-            <span class="circul icon-thumbs28"></span>
-            <div class="text">За счёт этого мы можем 
+					</div>
+					<div class="pb-item">
+						<span class="circul icon-thumbs28"></span>
+						<div class="text">За счёт этого мы можем 
 предложить лучшие цены </div>
-          </div>
-          <div class="pb-item">
-            <span class="circul icon-thumbs28"></span>
-            <div class="text">А наш сервисный центр 
+					</div>
+					<div class="pb-item">
+						<span class="circul icon-thumbs28"></span>
+						<div class="text">А наш сервисный центр 
 решит все ваши проблемы </div>
-          </div>
-        </aside><!--/.preferences-block-->
-        <aside class="base-slider container">
-          <div class="bs-item">
-            <img src="images/slider-img.jpg" alt="Фото слайдера">
-            <div class="item-text">
-              Скидки 20% <br>
-              <small>на все вединговые 
-              автоматы </small>
-              <a href="#" class="read-more">Подробнее</a>
-            </div>
-          </div><!--/.bs-item-->
-          <div class="bs-item">
-            <img src="images/slider-img.jpg" alt="Фото слайдера">
-            <div class="item-text">
-              Скидки 20% <br>
-              <small>на все вединговые 
-              автоматы </small>
-              <a href="#" class="read-more">Подробнее</a>
-            </div>
-          </div><!--/.bs-item-->
-          <div class="bs-item">
-            <img src="images/slider-img.jpg" alt="Фото слайдера">
-            <div class="item-text">
-              Скидки 20% <br>
-              <small>на все вединговые 
-              автоматы </small>
-              <a href="#" class="read-more">Подробнее</a>
-            </div>
-          </div><!--/.bs-item-->
-          <div class="bs-item">
-            <img src="images/slider-img.jpg" alt="Фото слайдера">
-            <div class="item-text">
-              Скидки 20% <br>
-              <small>на все вединговые 
-              автоматы </small>
-              <a href="#" class="read-more">Подробнее</a>
-            </div>
-          </div><!--/.bs-item-->
-        </aside><!--/.base-slider-->
-        <main class="main container">
-          <aside class="left-bar">
-            <form class="search clearfix">
-              <input type="text" placeholder="Поиск по сайту...">
-              <button class="search-btn icon-icon_search2" type="submit"></button>
-            </form><!--search-->
-            <nav class="left-nav-wrap">
-              <h3 class="lb-title">Каталог товаров</h3>
-              <div class="tablet-left-menu screen-hide">
-                <div class="clearfix">
-                  <div class="item">
-                    <a href="#">Платежные системы</a>
-                    <ul class="inner-nav">
-                      <li><a href="#">Автоматы по продаже напитков</a></li>
-                      <li><a href="#">Кофейные автоматы </a></li>
-                      <li><a href="#">Снековые автоматы </a></li>
-                    </ul>
-                  </div>
-                  <div class="item">
-                    <a href="#">Торговые автоматы</a>
-                    <ul class="inner-nav">
-                      <li><a href="#">Автоматы по продаже напитков</a></li>
-                      <li><a href="#">Кофейные автоматы </a></li>
-                      <li><a href="#">Снековые автоматы </a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="clearfix">
-                  <div class="item">
-                    <a href="#">Холодильное оборудование</a>
-                    <ul class="inner-nav">
-                      <li><a href="#">Автоматы по продаже напитков</a></li>
-                      <li><a href="#">Кофейные автоматы </a></li>
-                      <li><a href="#">Снековые автоматы </a></li>
-                    </ul>
-                  </div>
-                  <div class="item">
-                    <a href="#">Оборудование для разлива пива</a>
-                    <ul class="inner-nav">
-                      <li><a href="#">Автоматы по продаже напитков</a></li>
-                      <li><a href="#">Кофейные автоматы </a></li>
-                      <li><a href="#">Снековые автоматы </a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <ul class="left-bar-menu tablet-hide mobile-hide">
-                <li>
-                  <a class="icon-right-dir" href="#">Платежные системы</a>
-                  <ul class="inner-nav">
-                    <li><a href="#">Автоматы по продаже напитков</a></li>
-                    <li><a href="#">Кофейные автоматы </a></li>
-                    <li><a href="#">Снековые автоматы </a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="icon-right-dir" href="#">Торговые автоматы</a>
-                  <ul class="inner-nav">
-                    <li><a href="#">Автоматы по продаже напитков</a></li>
-                    <li><a href="#">Кофейные автоматы </a></li>
-                    <li><a href="#">Снековые автоматы </a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="icon-right-dir" href="#">Холодильное оборудование </a>
-                  <ul class="inner-nav">
-                    <li><a href="#">Автоматы по продаже напитков</a></li>
-                    <li><a href="#">Кофейные автоматы </a></li>
-                    <li><a href="#">Снековые автоматы </a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="icon-right-dir" href="#">Оборудование для разлива пива</a>
-                  <ul class="inner-nav">
-                    <li><a href="#">Автоматы по продаже напитков</a></li>
-                    <li><a href="#">Кофейные автоматы </a></li>
-                    <li><a href="#">Снековые автоматы </a></li>
-                  </ul>
-                </li>
-              </ul>
-            </nav><!--/.left-nav-wrap-->
-            <article class="news-wrap">
-              <h3 class="lb-title">Новости</h3>
-              <section class="news-item">
-                <time datetime="2014-06-12"><span class="badge">04</span>Сентябрь, 2015</time>
-                 <a href="#"><h4 class="news-title">Новая весенняя коллекция из светлого дерева</h4></a>
-                 <p>Наверно, многие скажут, что не существует такого понятия, как мода на двери. Но такое явление есть в...</p>
-              </section><!--/.news-item-->
-              <section class="news-item mobile-hide">
-                <time datetime="2014-06-12"><span class="badge">04</span>Сентябрь, 2015</time>
-                 <a href="#"><h4 class="news-title">Скидки постоянным клиентам 50% от покупки</h4></a>
-                 <p>Наверно, многие скажут, что не существует такого понятия, как мода на двери. Но такое явление есть в...</p>
-              </section><!--/.news-item-->
-              <section class="news-item tablet-hide mobile-hide">
-                <time datetime="2014-06-12"><span class="badge">04</span>Сентябрь, 2015</time>
-                 <a href="#"><h4 class="news-title">Мы-лучшие на рынке! Выставка в Москве. Отчет</h4></a>
-                 <p>Наверно, многие скажут, что не существует такого понятия, как мода на двери. Но такое явление есть в...</p>
-              </section><!--/.news-item-->
-              <a href="#" class="m-more-link m-visible">Читать все новости</a>
-            </article><!--/.news-wrap-->
-          </aside><!--/.left-bar-->
-          <div class="content tablet-hide mobile-hide">
-            <section class="text-section">
-              <h3 class="section-title">Торговые автоматы</h3>
-              <p>Уважаемые клиенты компании! Наше предложение будет интересно тем, кто устанавливает двери в новую квартиру или решил заменить межкомнатные двери в процессе ремонта. "Студия межкомнатных дверей Дорсан" предлагает Вам сэкономить на этой стадии ремонта. При заказе межкомнатных дверей в нашей компании Вы получаете множество преимуществ и в первую очередь это лучшие цены на московском рынке как на материалы, так и на услуги! .</p>
-            </section>
-            <div class="goodses-wrap">
-              <div class="goods-item-wrap">
-                <div class="goods-item">
-                  <div class="goods-img">
-                    <a href="#"><img src="images/goods/1.jpg" class="img-responsive" alt="фото товару"></a>
-                  </div><!--/.goods-img-->
-                  <div class="goods-name">
-                    <a href="#">G-Drink 9</a>
-                  </div><!--/.goods-name-->
-                  <div class="btn-wrap">
-                    <div class="price">2 450 <small class="valuta">руб.</small></div>
-                    <a href="#" class="btn cart-btn"><span class="icon icon-basket"></span> В корзину</a>
-                  </div><!--/.btn-wrap-->
-                </div> <!--/.main-->
-              </div><!--/.goods-item-wrap--> 
-              <div class="goods-item-wrap">
-                <div class="goods-item">
-                  <div class="goods-img">
-                    <a href="#"><img src="images/goods/2.jpg" class="img-responsive" alt="фото товару"></a>
-                  </div><!--/.goods-img-->
-                  <div class="goods-name">
-                    <a href="#">G-Drink 9</a>
-                  </div><!--/.goods-name-->
-                  <div class="btn-wrap">
-                    <div class="price">2 450 <small class="valuta">руб.</small></div>
-                    <a href="#" class="btn cart-btn"><span class="icon icon-basket"></span> В корзину</a>
-                  </div><!--/.btn-wrap-->
-                </div> <!--/.main-->
-              </div><!--/.goods-item-wrap-->
-              <div class="goods-item-wrap">
-                <div class="goods-item">
-                  <div class="goods-img">
-                    <a href="#"><img src="images/goods/3.jpg" class="img-responsive" alt="фото товару"></a>
-                  </div><!--/.goods-img-->
-                  <div class="goods-name">
-                    <a href="#">G-Drink 9</a>
-                  </div><!--/.goods-name-->
-                  <div class="btn-wrap">
-                    <div class="price">2 450 <small class="valuta">руб.</small></div>
-                    <a href="#" class="btn cart-btn"><span class="icon icon-basket"></span> В корзину</a>
-                  </div><!--/.btn-wrap-->
-                </div> <!--/.main-->
-              </div><!--/.goods-item-wrap--> 
-              <div class="goods-item-wrap">
-                <div class="goods-item">
-                  <div class="goods-img">
-                    <a href="#"><img src="images/goods/4.jpg" class="img-responsive" alt="фото товару"></a>
-                  </div><!--/.goods-img-->
-                  <div class="goods-name">
-                    <a href="#">G-Drink 9</a>
-                  </div><!--/.goods-name-->
-                  <div class="btn-wrap">
-                    <div class="price">2 450 <small class="valuta">руб.</small></div>
-                    <a href="#" class="btn cart-btn"><span class="icon icon-basket"></span> В корзину</a>
-                  </div><!--/.btn-wrap-->
-                </div> <!--/.main-->
-              </div><!--/.goods-item-wrap-->   
-              <div class="goods-item-wrap">
-                <div class="goods-item">
-                  <div class="goods-img">
-                    <a href="#"><img src="images/goods/1.jpg" class="img-responsive" alt="фото товару"></a>
-                  </div><!--/.goods-img-->
-                  <div class="goods-name">
-                    <a href="#">G-Drink 9</a>
-                  </div><!--/.goods-name-->
-                  <div class="btn-wrap">
-                    <div class="price">2 450 <small class="valuta">руб.</small></div>
-                    <a href="#" class="btn cart-btn"><span class="icon icon-basket"></span> В корзину</a>
-                  </div><!--/.btn-wrap-->
-                </div> <!--/.main-->
-              </div><!--/.goods-item-wrap--> 
-              <div class="goods-item-wrap">
-                <div class="goods-item">
-                  <div class="goods-img">
-                    <a href="#"><img src="images/goods/2.jpg" class="img-responsive" alt="фото товару"></a>
-                  </div><!--/.goods-img-->
-                  <div class="goods-name">
-                    <a href="#">G-Drink 9</a>
-                  </div><!--/.goods-name-->
-                  <div class="btn-wrap">
-                    <div class="price">2 450 <small class="valuta">руб.</small></div>
-                    <a href="#" class="btn cart-btn"><span class="icon icon-basket"></span> В корзину</a>
-                  </div><!--/.btn-wrap-->
-                </div> <!--/.main-->
-              </div><!--/.goods-item-wrap-->
-              <div class="goods-item-wrap">
-                <div class="goods-item">
-                  <div class="goods-img">
-                    <a href="#"><img src="images/goods/3.jpg" class="img-responsive" alt="фото товару"></a>
-                  </div><!--/.goods-img-->
-                  <div class="goods-name">
-                    <a href="#">G-Drink 9</a>
-                  </div><!--/.goods-name-->
-                  <div class="btn-wrap">
-                    <div class="price">2 450 <small class="valuta">руб.</small></div>
-                    <a href="#" class="btn cart-btn"><span class="icon icon-basket"></span> В корзину</a>
-                  </div><!--/.btn-wrap-->
-                </div> <!--/.main-->
-              </div><!--/.goods-item-wrap--> 
-              <div class="goods-item-wrap">
-                <div class="goods-item">
-                  <div class="goods-img">
-                    <a href="#"><img src="images/goods/4.jpg" class="img-responsive" alt="фото товару"></a>
-                  </div><!--/.goods-img-->
-                  <div class="goods-name">
-                    <a href="#">G-Drink 9</a>
-                  </div><!--/.goods-name-->
-                  <div class="btn-wrap">
-                    <div class="price">2 450 <small class="valuta">руб.</small></div>
-                    <a href="#" class="btn cart-btn"><span class="icon icon-basket"></span> В корзину</a>
-                  </div><!--/.btn-wrap-->
-                </div> <!--/.main-->
-              </div><!--/.goods-item-wrap-->  
-               <div class="goods-item-wrap">
-                <div class="goods-item">
-                  <div class="goods-img">
-                    <a href="#"><img src="images/goods/3.jpg" class="img-responsive" alt="фото товару"></a>
-                  </div><!--/.goods-img-->
-                  <div class="goods-name">
-                    <a href="#">G-Drink 9</a>
-                  </div><!--/.goods-name-->
-                  <div class="btn-wrap">
-                    <div class="price">2 450 <small class="valuta">руб.</small></div>
-                    <a href="#" class="btn cart-btn"><span class="icon icon-basket"></span> В корзину</a>
-                  </div><!--/.btn-wrap-->
-                </div> <!--/.main-->
-              </div><!--/.goods-item-wrap--> 
-            </div><!--/.goodses-wrap-->
-          </div><!--/.content-->
-        </main><!--/.main-->
-      </div><!--/.wrapper-->
-    </div><!--/.page-->
-    <footer class="footer">
-      <div class="container">
-        <div class="top-foot clearfix tablet-hide">
-          <nav class="nav-wrap pull-right ">
-            <ul class="separator-menu clearfix pull-right">
-              <li><a href="#">О компании</a></li>             
-              <li><a href="#">Каталог</a></li>              
-              <li><a href="#">Сервисный центр</a></li>              
-              <li><a href="#">Оплата и доставка</a></li>              
-              <li><a href="#">Новости </a></li>             
-              <li><a href="#">Контакты</a></li>
-            </ul>
-          </nav><!--/.nav-wrap-->
-        </div><!--/.top-foot-->
-        <div class="bot-foot clearfix">
-          <div class="copy pull-left">
-            &copy; 2001-2015 ООО "Формтрейд"<br>
-            111250, Москва, Красноказарменный пр., д. 1, оф. 702.<br class="mobile-hide">
-            <a href="mailto:info@formtrade.ru"><span class="icon icon-mail-alt"></span>info@formtrade.ru</a>
-          </div><!--/.copy-->
-          <ul class="img-link pull-right tablet-hide mobile-hide">
-            <li><a href="#"><img src="images/il3.jpg" alt="ссылка"></a></li>
-            <li><a href="#"><img src="images/il2.jpg" alt="ссылка"></a></li>
-            <li><a href="#"><img src="images/il1.jpg" alt="ссылка"></a></li>
-          </ul><!--/.img-link-->
-          <ul class="number-list center-block">
-              <li><a  href="">+7(495) 361-52-04</a> (многоканальный)</li>
-              <li><a  href="">+7(495) 361-57-75</a>, <a  href="">+7(495) 221-84-19</a></li>
-          </ul>
-        </div><!--/.bot-foot-->
-      </div><!--/.container-->
-    </footer><!--/.footer-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="vendor/slick/slick.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+					</div>
+				</aside><!--/.preferences-block-->
+				<aside class="base-slider container">
+					<div class="bs-item">
+						<img src="images/slider-img.jpg" alt="Фото слайдера">
+						<div class="item-text">
+							Скидки 20% <br>
+							<small>на все вединговые 
+							автоматы </small>
+							<a href="#" class="read-more">Подробнее</a>
+						</div>
+					</div><!--/.bs-item-->
+					<div class="bs-item">
+						<img src="images/slider-img.jpg" alt="Фото слайдера">
+						<div class="item-text">
+							Скидки 20% <br>
+							<small>на все вединговые 
+							автоматы </small>
+							<a href="#" class="read-more">Подробнее</a>
+						</div>
+					</div><!--/.bs-item-->
+					<div class="bs-item">
+						<img src="images/slider-img.jpg" alt="Фото слайдера">
+						<div class="item-text">
+							Скидки 20% <br>
+							<small>на все вединговые 
+							автоматы </small>
+							<a href="#" class="read-more">Подробнее</a>
+						</div>
+					</div><!--/.bs-item-->
+					<div class="bs-item">
+						<img src="images/slider-img.jpg" alt="Фото слайдера">
+						<div class="item-text">
+							Скидки 20% <br>
+							<small>на все вединговые 
+							автоматы </small>
+							<a href="#" class="read-more">Подробнее</a>
+						</div>
+					</div><!--/.bs-item-->
+				</aside><!--/.base-slider-->
+				<main class="main container">
+					<aside class="left-bar">
+						<form class="search clearfix">
+							<input type="text" placeholder="Поиск по сайту...">
+							<button class="search-btn icon-icon_search2" type="submit"></button>
+						</form><!--search-->
+						<nav class="left-nav-wrap">
+							<h3 class="lb-title">Каталог товаров</h3>
+							<div class="tablet-left-menu screen-hide">
+								<div class="clearfix">
+									<div class="item">
+										<a href="#">Платежные системы</a>
+										<ul class="inner-nav">
+											<li><a href="#">Автоматы по продаже напитков</a></li>
+											<li><a href="#">Кофейные автоматы </a></li>
+											<li><a href="#">Снековые автоматы </a></li>
+										</ul>
+									</div>
+									<div class="item">
+										<a href="#">Торговые автоматы</a>
+										<ul class="inner-nav">
+											<li><a href="#">Автоматы по продаже напитков</a></li>
+											<li><a href="#">Кофейные автоматы </a></li>
+											<li><a href="#">Снековые автоматы </a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix">
+									<div class="item">
+										<a href="#">Холодильное оборудование</a>
+										<ul class="inner-nav">
+											<li><a href="#">Автоматы по продаже напитков</a></li>
+											<li><a href="#">Кофейные автоматы </a></li>
+											<li><a href="#">Снековые автоматы </a></li>
+										</ul>
+									</div>
+									<div class="item">
+										<a href="#">Оборудование для разлива пива</a>
+										<ul class="inner-nav">
+											<li><a href="#">Автоматы по продаже напитков</a></li>
+											<li><a href="#">Кофейные автоматы </a></li>
+											<li><a href="#">Снековые автоматы </a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<ul class="left-bar-menu tablet-hide mobile-hide">
+								<li>
+									<a class="icon-right-dir" href="#">Платежные системы</a>
+									<ul class="inner-nav">
+										<li><a href="#">Автоматы по продаже напитков</a></li>
+										<li><a href="#">Кофейные автоматы </a></li>
+										<li><a href="#">Снековые автоматы </a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="icon-right-dir" href="#">Торговые автоматы</a>
+									<ul class="inner-nav">
+										<li><a href="#">Автоматы по продаже напитков</a></li>
+										<li><a href="#">Кофейные автоматы </a></li>
+										<li><a href="#">Снековые автоматы </a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="icon-right-dir" href="#">Холодильное оборудование </a>
+									<ul class="inner-nav">
+										<li><a href="#">Автоматы по продаже напитков</a></li>
+										<li><a href="#">Кофейные автоматы </a></li>
+										<li><a href="#">Снековые автоматы </a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="icon-right-dir" href="#">Оборудование для разлива пива</a>
+									<ul class="inner-nav">
+										<li><a href="#">Автоматы по продаже напитков</a></li>
+										<li><a href="#">Кофейные автоматы </a></li>
+										<li><a href="#">Снековые автоматы </a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav><!--/.left-nav-wrap-->
+						<article class="news-wrap">
+							<h3 class="lb-title">Новости</h3>
+							<section class="news-item">
+								<time datetime="2014-06-12"><span class="badge">04</span>Сентябрь, 2015</time>
+								 <a href="#"><h4 class="news-title">Новая весенняя коллекция из светлого дерева</h4></a>
+								 <p>Наверно, многие скажут, что не существует такого понятия, как мода на двери. Но такое явление есть в...</p>
+							</section><!--/.news-item-->
+							<section class="news-item mobile-hide">
+								<time datetime="2014-06-12"><span class="badge">04</span>Сентябрь, 2015</time>
+								 <a href="#"><h4 class="news-title">Скидки постоянным клиентам 50% от покупки</h4></a>
+								 <p>Наверно, многие скажут, что не существует такого понятия, как мода на двери. Но такое явление есть в...</p>
+							</section><!--/.news-item-->
+							<section class="news-item tablet-hide mobile-hide">
+								<time datetime="2014-06-12"><span class="badge">04</span>Сентябрь, 2015</time>
+								 <a href="#"><h4 class="news-title">Мы-лучшие на рынке! Выставка в Москве. Отчет</h4></a>
+								 <p>Наверно, многие скажут, что не существует такого понятия, как мода на двери. Но такое явление есть в...</p>
+							</section><!--/.news-item-->
+							<a href="#" class="m-more-link m-visible">Читать все новости</a>
+						</article><!--/.news-wrap-->
+					</aside><!--/.left-bar-->
+					<div class="content tablet-hide mobile-hide">
+						<div class="bread-crumb-wrap">
+							<ul class="bread-crumb">
+								<li><a href="#">Главная </a></li>
+								<li><a href="#">Торговые автоматы  </a></li>
+								<li><a href="#">Автоматы по продаже напитков  </a></li>
+								<li><span>Cнековый торговый автомат G-SNACK FOOD </span></li>     
+							</ul>
+						</div><!--/.bread-crumb-wrap-->
+						<h1 class="goods-title"></h1>
+						<div class="goods-wrap clearfix">
+							<div class="g-left">
+								<div class="img-wrap">
+									
+								</div>
+								<div class="buy-info">
+									
+								</div>
+							</div>
+							<div class="g-right">
+								<h3 class="features-title"></h3>
+								<table class="features-table">
+									<tbody>
+										<tr>
+											<td>Мощность (Вт)</td>
+											<td>600</td>
+										</tr>
+										<tr>
+											<td>Вес</td>
+											<td>310 кг</td>
+										</tr>
+										<tr>
+											<td>Габариты  (ВхШхГ)</td>
+											<td>1830/980/845 мм.</td>
+										</tr>
+										<tr>
+											<td>Количество выборов</td>
+											<td>до 56</td>
+										</tr>
+										<tr>
+											<td>Количество полок</td>
+											<td>до 7</td>
+										</tr>
+										<tr>
+											<td>Количество спиралей на полке</td>
+											<td>до 8</td>
+										</tr>
+										<tr>
+											<td>Температурный режим (продуктовая зона)</td>
+											<td>+2 °C </td>
+										</tr> 
+									</tbody>
+								</table>
+								<h4 class="f-inner-title">Экономия электроэнергии и экология</h4>
+								<div class="features-text">
+									Выключения подсветки в периоды, когда нет продаж. 
+									Пониженное энергопотребление.
+								</div>
+								<h4 class="f-inner-title">Контроль выдачи товара</h4>
+								<div class="features-text">
+									Оптические сенсоры контролируют получение товара. 
+									Если товар не получен, то спираль сделает дополнительный 
+									оборот.
+								</div>
+								<h4 class="f-inner-title">На полках - максимум товаров</h4>
+								<ul class="features-list">
+									<li>- Плотная загрузка товара </li>
+									<li>- Каждый сантиметр полки используется с пользой</li>
+									<li>- Точный размер каналов и ячеек в соответствии с
+									   геометрией товаров.</li>
+								</ul>
+							</div>	
+						</div>
+					</div><!--/.content-->
+				</main><!--/.main-->
+			</div><!--/.wrapper-->
+		</div><!--/.page-->
+		<footer class="footer">
+			<div class="container">
+				<div class="top-foot clearfix tablet-hide">
+					<nav class="nav-wrap pull-right ">
+						<ul class="separator-menu clearfix pull-right">
+							<li><a href="#">О компании</a></li>             
+							<li><a href="#">Каталог</a></li>              
+							<li><a href="#">Сервисный центр</a></li>              
+							<li><a href="#">Оплата и доставка</a></li>              
+							<li><a href="#">Новости </a></li>             
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav><!--/.nav-wrap-->
+				</div><!--/.top-foot-->
+				<div class="bot-foot clearfix">
+					<div class="copy pull-left">
+						&copy; 2001-2015 ООО "Формтрейд"<br>
+						111250, Москва, Красноказарменный пр., д. 1, оф. 702.<br class="mobile-hide">
+						<a href="mailto:info@formtrade.ru"><span class="icon icon-mail-alt"></span>info@formtrade.ru</a>
+					</div><!--/.copy-->
+					<ul class="img-link pull-right tablet-hide mobile-hide">
+						<li><a href="#"><img src="images/il3.jpg" alt="ссылка"></a></li>
+						<li><a href="#"><img src="images/il2.jpg" alt="ссылка"></a></li>
+						<li><a href="#"><img src="images/il1.jpg" alt="ссылка"></a></li>
+					</ul><!--/.img-link-->
+					<ul class="number-list center-block">
+							<li><a  href="">+7(495) 361-52-04</a> (многоканальный)</li>
+							<li><a  href="">+7(495) 361-57-75</a>, <a  href="">+7(495) 221-84-19</a></li>
+					</ul>
+				</div><!--/.bot-foot-->
+			</div><!--/.container-->
+		</footer><!--/.footer-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="vendor/slick/slick.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>

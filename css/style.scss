@@ -1056,7 +1056,6 @@ html, body {
   .bs-item{
     height: 275px;
     width: 100%;
-    position: relative;
     img{
       min-width: 100%; width: auto;
       min-height: 100%; height: auto;
@@ -1065,23 +1064,10 @@ html, body {
       top: 0;bottom: 0;left: 0;right: 0;
     }
     .item-text{
-      z-index: 3;
       padding: 15px;
-      position: absolute;
       height: 165px;
-      left: 0;top: auto;bottom: 0;
-      background: #475577;
-      background: rgba(71, 85, 119,.9);
-      color: #fff;
-      font-size: 30px;
-      font-family: 'latobold',sans-serif;
-      font-weight: 700;
-      max-width: 314px;
-      small{
-        font-size: 24.7px;
-        text-align: left;
-        display: block;
-      }
+      left: 0;top: auto;bottom: 0;right: 0;
+      max-width: 100%;
     }
   }
   .slick-dots{
