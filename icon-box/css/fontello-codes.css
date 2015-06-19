@@ -7,6 +7,9 @@
 .icon-icon_key:before { content: '\e805'; } /* '' */
 .icon-basket:before { content: '\e806'; } /* '' */
 .icon-down-dir:before { content: '\e807'; } /* '' */
+.icon-down-open-big:before { content: '\e808'; } /* '' */
 .icon-right-dir:before { content: '\e809'; } /* '' */
 .icon-left-dir:before { content: '\e80a'; } /* '' */
 .icon-up-dir:before { content: '\e80b'; } /* '' */
+.icon-up-open-big:before { content: '\e80c'; } /* '' */
+.icon-menu:before { content: '\e80d'; } /* '' */
